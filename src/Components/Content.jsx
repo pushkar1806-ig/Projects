@@ -28,6 +28,7 @@ export default function VectorGraph3D() {
           
           // Y-Axis & Arrowhead (Green)
           { type: 'scatter3d', mode: 'lines', x: [0, 0], y: [0, axisLimit], z: [0, 0], line: { width: 4, color: 'green' } },
+          { type: 'scatter3d', mode: 'lines', x: [0, 0], y: [0, axisLimit], z: [0, 0], line: { width: 4, color: 'green' } },
           { type: 'cone', x: [0], y: [axisLimit], z: [0], u: [0], v: [1], w: [0], sizemode: 'absolute', sizeref: 1, anchor: 'tip', colorscale: [[0, 'green'], [1, 'green']], showscale: false },
           
           // Z-Axis & Arrowhead (Purple)
